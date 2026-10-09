@@ -28,7 +28,6 @@ public class Team {
     }
     /**
      * Add a member to the team
-     * @param member members name
      */
     public void addMember(String member) {
         this.members.add(member);
@@ -81,7 +80,7 @@ public class Team {
      * Get a string representation of the team
      */
     @Override
-    public String toString() {
+     public String toString() {
         return "Team(name=" + this.name + ", members=" + this.members + ")";
     }
 
@@ -92,4 +91,9 @@ public class Team {
     public int hashCode() {
         return this.name.hashCode() | this.members.hashCode();
     }
+
+
+   
+
+
 }

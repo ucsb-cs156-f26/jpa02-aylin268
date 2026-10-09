@@ -38,8 +38,8 @@ public class Developer {
         Team team = new Team("f26-14");
         team.addMember("Heloisa");
         team.addMember("Krithi");
-        team.addMember("Ray D");
-        team.addMember("Ryan R");
+        team.addMember("Ray");
+        team.addMember("Ryan");
         team.addMember("Vishwath");
         team.addMember("Aylin");
         return team;
